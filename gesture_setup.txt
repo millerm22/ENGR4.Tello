@@ -1,0 +1,15 @@
+## Clone repository
+git clone https://github.com/kinivi/tello-gesture-control.git
+
+## Install dependencies (this installs specific versions, that may not be necessary)
+sudo apt-get install ConfigArgParse=1.2.3
+sudo apt-get install djitellopy=1.5
+sudo apt-get install numpy=1.19.3
+sudo apt-get install opencv_python=4.5.1.48
+sudo apt-get install tensorflow=2.4.1
+sudo apt-get install mediapipe=0.8.2
+
+## apt install example: sudo apt-get install <package name>=<version>
+
+## check for available wifi network
+sudo iwlist wlan0 scan
