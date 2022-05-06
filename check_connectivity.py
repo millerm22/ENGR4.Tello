@@ -12,3 +12,11 @@ if __name__ == '__main__':
     print('\n')
 
     tello.end()
+    
+# a successful connection will respond with:
+# 1. Connection test:
+# Send command: command
+# Response: b'ok'
+# 2. Video stream test:
+# Send command: streamon
+# Response: b'ok'
